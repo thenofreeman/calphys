@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/calphys/static/css/main.5c837f41.css",
+    "main.js": "/calphys/static/js/main.9caccbd9.js",
+    "static/js/453.25ecbd2b.chunk.js": "/calphys/static/js/453.25ecbd2b.chunk.js",
+    "index.html": "/calphys/index.html",
+    "main.5c837f41.css.map": "/calphys/static/css/main.5c837f41.css.map",
+    "main.9caccbd9.js.map": "/calphys/static/js/main.9caccbd9.js.map",
+    "453.25ecbd2b.chunk.js.map": "/calphys/static/js/453.25ecbd2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c837f41.css",
+    "static/js/main.9caccbd9.js"
+  ]
+}

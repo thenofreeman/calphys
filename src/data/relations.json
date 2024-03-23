@@ -1,0 +1,185 @@
+{
+    "equations" : [
+        {
+            "hint" : "Speed",
+            "label" : "s = \\frac{d}{t}",
+            "vars" : ["s", "d", "t"],
+            "names" : ["speed", "distance", "time"],
+            "numMatched" : 0
+        },{
+            "hint" : "Velocity",
+            "label" : "v = \\frac{x}{t}",
+            "vars" : ["v", "x", "t"],
+            "names" : ["velocity", "displacement", "time"],
+            "numMatched" : 0
+        },{
+            "hint" : "Acceleration",
+            "label" : "a = \\frac{v}{t}",
+            "vars" : ["a", "v", "t"],
+            "names" : ["acceleration", "velocity", "time"],
+            "numMatched" : 0
+        },{
+            "hint" : "First Equation of Motion",
+            "label" : "v_f = v_i + at",
+            "vars" : ["v_f", "v_i", "a", "t"],
+            "names" : ["final-velocity", "initial-velocity", "acceleration", "time"],
+            "numMatched" : 0
+        },{
+            "hint" : "Second Equation of Motion",
+            "label" : "x = v_it + \\frac{at^2}{2}",
+            "vars" : ["x", "v_i", "t", "a"],
+            "names" : ["displacement", "initial-velocity", "time", "acceleration"],
+            "numMatched" : 0
+        },{
+            "hint" : "Third Equation of Motion",
+            "label" : "(v_f)^2 = (v_i)^2 + 2ax",
+            "vars" : ["v_f", "v_i", "a x"],
+            "names" : ["final-velocity", "initial-velocity", "acceleration", "displacement"],
+            "numMatched" : 0
+        },{
+            "hint" : "Displacement",
+            "label" : "x = \\frac{(v_i + v_f)t}{2}",
+            "vars" : ["x", "v_i", "v_f", "t"],
+            "names" : ["displacement", "initial-velocity", "final-velocity", "time"],
+            "numMatched" : 0
+        },{
+            "hint" : "Velocity in x-direction at given time",
+            "label" : "v_x = v_i \\cos\\theta",
+            "vars" : ["v_x", "v_i", "\\theta"],
+            "names" : ["velocity-in-x-direction", "initial-velocity", "angle-with-horizontal"],
+            "numMatched" : 0
+        },{
+            "hint" : "Velocity in y-direction at given time",
+            "label" : "v_y = (v_i \\sin\\theta) - gt",
+            "vars" : ["v_y", "v_i", "\\theta", "g", "t"],
+            "names" : ["velocity-in-x-direction", "initial-velocity", "angle-with-horizontal", "gravitational-acceleration", "time"],
+            "numMatched" : 0
+        },{
+            "hint" : "Position in x-direction at given time",
+            "label" : "x = v_i \\cos\\theta t",
+            "vars" : ["x", "v_i", "\\theta", "t"],
+            "names" : ["position-in-x-direction", "initial-velocity", "angle-with-horizontal", "time"],
+            "numMatched" : 0
+        },{
+            "hint" : "Position in y-direction at given time",
+            "label" : "y = (v_i \\sin\\theta t) - \\frac{gt^2}{2}",
+            "vars" : ["y", "v_i", "\\theta", "t", "g"],
+            "names" : ["position-in-y-direction", "initial-velocity", "angle-with-horizontal", "time", "gravitational-acceleration"],
+            "numMatched" : 0
+        },{
+            "hint" : "Time of Maximum Height",
+            "label" : "t_m = \\frac{v_i \\sin\\theta}{g}",
+            "vars" : ["t_m", "v_i", "\\theta", "g"],
+            "names" : ["max-height-time", "initial-velocity", "angle-with-horizontal", "gravitational-acceleration"],
+            "numMatched" : 0
+        },{
+            "hint" : "Time of Flight",
+            "label" : "t_f = \\frac{2v_i \\sin\\theta}{g}",
+            "vars" : ["t_f", "v_i", "\\theta", "g"],
+            "names" : ["time-of-flight", "initial-velocity", "angle-with-horizontal", "gravitational-acceleration"],
+            "numMatched" : 0
+        },{
+            "hint" : "Maximum Height of Projectile",
+            "label" : "h_m = \\frac{(v_i \\sin\\theta)^2}{2g}",
+            "vars" : ["h_m", "v_i", "\\theta", "g"],
+            "names" : ["maximum-height", "initial-velocity", "angle-with-horizontal", "gravitational-acceleration"],
+            "numMatched" : 0
+        },{
+            "hint" : "Horizontal Range of Projectile",
+            "label" : "R = \\frac{(v_i)^2 \\sin(2\\theta)}{g}",
+            "vars" : ["R", "v_i", "\\theta", "g"],
+            "names" : ["range", "initial-velocity", "angle-with-horizontal", "gravitational-acceleration"],
+            "numMatched" : 0
+        },{
+            "hint" : "Maximum Horizontal Range",
+            "label" : "R_(max) = \\frac{(v_i)^2}{g}",
+            "vars" : ["R_(max)", "v_i", "g"],
+            "names" : ["maximum-range", "initial-velocity", "gravitational-acceleration"],
+            "numMatched" : 0
+        },{
+            "hint" : "Force ",
+            "label" : "F = ma",
+            "vars" : ["F", "m", "a"],
+            "names" : ["force", "mass", "acceleration"],
+            "numMatched" : 0
+        },{
+            "hint" : "Momentum",
+            "label" : "p = mv",
+            "vars" : ["p", "m", "v"],
+            "names" : ["momentum", "mass", "velocity"],
+            "numMatched" : 0
+        },{
+            "hint" : "Angular Velocity",
+            "label" : "\\omega = \\frac{2 \\pi}{T}",
+            "vars" : ["\\omega", "T"],
+            "names" : ["angular-velocity", "period"],
+            "numMatched" : 0
+        },{
+            "hint" : "Angular Velocity",
+            "label" : "\\omega = 2 \\pi f",
+            "vars" : ["\\omega", "f "],
+            "names" : ["angular-velocity", "frequency"],
+            "numMatched" : 0
+        },{
+            "hint" : "Linear Velocity",
+            "label" : "v_L = \\frac{2 \\pi R}{T}",
+            "vars" : ["v_L", "R", "T"],
+            "names" : ["linear-velocity", "radius", "period"],
+            "numMatched" : 0
+        },{
+            "hint" : "Linear Velocity",
+            "label" : "v_L = \\omega R",
+            "vars" : ["v_L", "\\omega", "R"],
+            "names" : ["linear-velocity", "angular-velocity", "radius"],
+            "numMatched" : 0
+        },{
+            "hint" : "Centripetal Acceleration",
+            "label" : "a_c = \\frac{v^2}{R}",
+            "vars" : ["a_c", "v", "R"],
+            "names" : ["centripetal-acceleration", "velocity", "radius"],
+            "numMatched" : 0
+        },{
+            "hint" : "Centripetal Acceleration",
+            "label" : "a_c = \\frac{4 \\pi R}{T^2}",
+            "vars" : ["a_c", "R", "T"],
+            "names" : ["centripetal-acceleration", "radius", "period"],
+            "numMatched" : 0
+        },{
+            "hint" : "Centripetal Acceleration",
+            "label" : "a_c = \\omega^2 R",
+            "vars" : ["a_c", "\\omega", "R"],
+            "names" : ["centripetal-acceleration", "angular-velocity", "radius"],
+            "numMatched" : 0
+        },{
+            "hint" : "Angle Swept",
+            "label" : "\\theta = \\omega t",
+            "vars" : ["\\theta", "\\omega", "t"],
+            "names" : ["angle-swept", "angular-velocity", "time"],
+            "numMatched" : 0
+        },{
+            "hint" : "Angle Swept",
+            "label" : "\\theta = \\frac{2 \\pi t}{T}",
+            "vars" : ["\\theta", "t", "T"],
+            "names" : ["angle-swept", "time", "period"],
+            "numMatched" : 0
+        },{
+            "hint" : "Frequency",
+            "label" : "f = \\frac{1}{T}",
+            "vars" : ["f", "T"],
+            "names" : ["frequency", "period"],
+            "numMatched" : 0
+        },{
+            "hint" : "Kinetic Energy",
+            "label" : "K_e = \\frac{mv^2}{2}",
+            "vars" : ["K_e", "m", "v"],
+            "names" : ["kinetic-energy", "mass", "velocity"],
+            "numMatched" : 0
+        },{
+            "hint" : "Potential Energy",
+            "label" : "P_e = mgh",
+            "vars" : ["P_e", "m", "g", "h"],
+            "names" : ["potential-energy", "mass", "gravitational-acceleration", "height"],
+            "numMatched" : 0
+        }
+    ]
+}
